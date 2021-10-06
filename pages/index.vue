@@ -5,7 +5,7 @@
         <div><img :src="mont.image" alt="" srcset="" /></div>
         <div class="description">{{ mont.description }}</div>
         <div class="">{{ mont.title }}</div>
-        <div class="">{{ mont.height }}</div>
+        <div class="">{{ mont.height }}</div> 
         <div class="">{{ mont.continent }}</div>
         <div class="">{{ mont.updatedAt }}</div>
         <nuxt-link :to="`/mountains/${mont.slug}`">detalhes</nuxt-link>
