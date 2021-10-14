@@ -4,6 +4,7 @@
       <div id="mountains-item" v-for="mont in mountains" :key="mont.id">
         <div><img :src="mont.image" alt="" srcset="" /></div>
         <div class="description">{{ mont.description }}</div>
+
         <div class="">{{ mont.title }}</div>
         <div class="">{{ mont.height }}</div> 
         <div class="">{{ mont.continent }}</div>
